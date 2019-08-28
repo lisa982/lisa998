@@ -1,0 +1,62 @@
+node概念
+        	node.js就是运行在服务端的 JavaScript。
+                node.js是运行在chrome的v8环境中的。
+
+http状态码
+    100 Continue 继续，一般在发送post请求时，已经发送了http header之后服务端将返回此信息，表示确认，之后发送具体参数信息
+    200 OK 正常返回信息
+    201 Created 请求成功并且服务器创建了新的资源
+    202 Accepted 服务器已接受请求，但尚未处理
+    301 Moved Permanently 请求的网页已永久移动到新位置。
+    302 Found 临时性重定向。
+    303 See Other 临时性重定向，且总是使用 GET 请求新的 URI。
+    304 Not Modified 自从上次请求后，请求的网页未修改过。
+    400 Bad Request 服务器无法理解请求的格式，客户端不应当尝试再次使用相同的内容发起请求。
+    401 Unauthorized 请求未授权。
+    403 Forbidden 禁止访问。
+    404 Not Found 找不到如何与 URI 相匹配的资源。
+    500 Internal Server Error 最常见的服务器端错误。
+    503 Service Unavailable 服务器端暂时无法处理请求(可能是过载或维护)。
+
+常见的状态码
+    200 OK 服务器成功处理了请求（这个是我们见到最多的）
+    301/302 Moved Permanently（重定向）请求的URL已移走。Response中应该包含一个Location URL, 说明资源现在所处的位置
+    304 Not Modified（未修改）客户的缓存资源是最新的， 要客户端使用缓存
+    404 Not Found 未找到资源
+    501 Internal Server Error服务器遇到一个错误，使其无法对请求提供服务
+
+node 的特点
+  （1）单线程
+  （2）非阻塞I/O
+  （3）事件驱动
+ 
+http请求方式
+     get    post     delete   put    patch    options
+
+  file system文件系统   作用：操作文件
+  .listen(端口号)   监听端口
+  解决乱码
+    res.writeHead(200,{"Content-type":"text/html;charset=UTF8"})
+
+node模块
+    内置模块：http 服务，fs文件操作 ，url路径，path路径处理，os操作系统等
+    自定义模块：自己创建的js文件
+    第三方模块
+
+node.js模块是基于Common.js模块规范制定的
+  Common.js模块规范
+       （1）一个文件就是一个模块
+       （2）通过exports和modul.exports来导出模块中的成员（申明模块中那些功能是可以使用的）
+        （3）通过require来加载模块
+  
+
+自定义Node.js模块
+        语法：
+                【步骤一：导出成员（声明模块/文件中那些方法可以被外部使用）】
+                【写法1】
+                      exports.属性/方法名 =功能；
+                【写法2】
+                      modul.exports.属性/方法名=变量名；
+                【使用：先引入后带调用】
+                       var 对象 = require（“路径及文件名”）；
+                       对象.属性或方法名
