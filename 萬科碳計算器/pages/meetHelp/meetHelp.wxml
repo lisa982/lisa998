@@ -1,0 +1,26 @@
+<view>
+  <view class="content">
+    <modal hidden="{{modalHidden}}" bindconfirm="modalConfirm" no-cancel="{{nical}}">
+      <view style="width: 100%;overflow: hidden;">
+        <image class="image" src="http://wkjsq.carbonstop.net/static/icon/2019-11-15-0?v=1.0.png" mode='aspectFill'></image>
+      </view>
+    </modal>
+    <image src="http://wkjsq.carbonstop.net/static/bj/4.png" class="img"></image>
+    <view class="back back1" bindtap="metro1"></view>
+    <view class="text text1">会议</view>
+    <view class="text text2">碳排放</view>
+    <view class="text text3">计算器</view>
+    <view class="title">会议的举办要求参会者到达指定地点，参会者到场的交通、会议所提供的食物、会场的能源消耗都会产生相应的碳排放。这个小程序可以计算个人参会所产生的碳排放量。</view>
+    <view class="title2">
+      <view>数据收集（长按可复制）</view>
+      <view>
+        <text selectable='true'>飞机出发地北京，飞机目的地成都，火车出发地无，火车目的地无，地铁0公里，出租车0公里，公交车0公里，住宿二星级酒店0晚，三星级酒店0晚，四星级酒店0晚，五星级酒店0晚，普通酒店0晚，水果0千克，蔬菜0千克，猪肉0千克，牛肉0千克，鸡肉0千克，鱼0千克，米饭0千克，碳酸饮料0升，牛奶0千克，矿泉水0升，面食0千克，会议用电0度，会议用纸0千克。</text>
+      </view>
+    </view>
+    <view class="footer">
+      <view class="back help" bindtap="back"></view>
+      <button class="come" bindtap="begin">开始计算</button>
+      <view class="back back2" bindtap="metro2"></view>
+    </view>
+  </view>
+</view>

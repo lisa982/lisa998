@@ -1,0 +1,34 @@
+/* pages/meet/meetResult2.wxss */
+button {
+width: 40%;
+height: 96rpx;
+font-size: 38rpx;
+background: #F6CB00;
+color: white;
+line-height: 96rpx;
+}
+.myCanvas1{
+  /* transform: scale(0.1); */
+overflow: hidden;
+
+}
+.fincanvas{
+  background: rgba(0,0,0,0.6);
+position: fixed;
+top: 0%;
+z-index: 99999999;
+height:100vh;
+}
+.share{
+ position: fixed;
+bottom: 6%;
+left: 29%;
+}
+.back{
+  width: 100rpx;
+height: 100rpx;
+background-image:url(http://wkjsq.carbonstop.net/static/icon/last.png);
+border-radius: 50%;
+margin: 60rpx 10rpx 30rpx 40rpx;
+background-size: 100% 100%;
+}

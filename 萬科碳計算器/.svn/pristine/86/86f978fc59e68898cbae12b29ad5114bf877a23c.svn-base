@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+"navigationBarTitleText": "会议碳计算器",
+"backgroundTextStyle": "light",
+"navigationBarBackgroundColor": "#C03D2F",
+"navigationBarTextStyle": "white",
+"backgroundColor": "#f3f3f3"
+}

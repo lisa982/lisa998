@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "mp-loading": "../../loading/loading"
+  },
+  "navigationBarTitleText": "计算结果",
+  "backgroundTextStyle": "light",
+ "navigationBarBackgroundColor": "#144B9E",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#f3f3f3"
+}

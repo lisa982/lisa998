@@ -1,0 +1,66 @@
+/* pages/meet/meetResult.wxss */
+page{
+  background:#C03D2F;
+}
+.content{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+height: 100vh;
+align-items: center;
+}
+.text{
+width: 90%;
+display: block;
+color: white;
+margin: 0rpx auto;
+font-size: 29rpx;
+line-height: 60rpx;
+text-indent: 58rpx;
+margin-top: 50rpx;
+/* text-align: left; */
+}
+.btn {
+width: 80%;
+margin: 30rpx auto;
+display: flex;
+align-items: center;
+position: relative;
+top: -4%;
+}
+
+button {
+width: 40%;
+height: 96rpx;
+font-size: 38rpx;
+background: #F6CB00;
+color: white;
+line-height: 96rpx;
+}
+.canvas{
+    width: 100% !important;
+    height: 300px !important;
+    top: -8%;
+}
+/*         ==================================================== */
+.myCanvas1{
+  transform: scale(0.1);
+overflow: hidden;
+position: relative;
+left: -45%;
+top: -33%;
+
+}
+.fincanvas{
+  background: rgba(0,0,0,0.6);
+position: fixed;
+top: 0%;
+z-index: 99999999;
+height:100vh;
+}
+.share{
+ position: fixed;
+bottom: 6%;
+left: 29%;
+}
+/*=======================================================================  */

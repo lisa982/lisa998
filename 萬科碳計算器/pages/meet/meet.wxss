@@ -1,0 +1,183 @@
+/* pages/meet/meet.wxss */
+.image {
+ width: 100%;
+height: 1030rpx;
+margin: 0rpx 20rpx 0rpx 0rpx;
+float: left;
+
+}
+page {
+  background: #C03D2F;
+  height: 100vh;
+  color: white;
+}
+
+.main {
+  width: 100%;
+  float: left;
+  display: flex;
+  height: 18%;
+  background: #C03D2F;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+}
+
+.active {
+  /* background: rgba(255, 255, 255, 0.9); */
+  border-radius: 20rpx;
+}
+
+.title {
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-flow: cloumn;
+  width: 100rpx;
+}
+
+button::after {
+  border: none;
+}
+
+.meetTitle {
+  position: absolute;
+  top: 5%;
+  width: 84%;
+  height: 40rpx;
+  margin: 0rpx auto;
+  left: 8%;
+  display: flex;
+  justify-content: space-between;
+  height: 45rpx;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  height: 93rpx;
+}
+
+.meet_content {
+  width: 55%;
+  height: 100%;
+  /* background: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.change{
+width: 90rpx;
+height: 90rpx;
+border-radius: 50%;
+overflow: hidden;
+}
+.title_img {
+width: 40rpx;
+height: 40rpx;
+transform: scale(2.1);
+display: block;
+margin-top: 27rpx;
+margin-left: -3rpx;
+}
+
+.change>image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.content>text {
+  font-size: 33rpx;
+  text-align: left;
+}
+
+.mainRight {
+  width: 76%;
+  height: 100vh;
+  background: blue;
+}
+
+.Right {
+  width: 100%;
+  height: 100%;
+}
+
+/* 点击下一步按钮 */
+
+.next {
+  width: 173rpx;
+  height: 75rpx;
+  font-size: 33rpx;
+  background: #F6CB00;
+  border: none;
+  color: white;
+  text-align: center;
+  line-height: 75rpx;
+  position: absolute;
+  bottom: 4%;
+  right: 39%;
+}
+
+.active {
+  background: rgba(255, 255, 255, 1);
+}
+
+.active::before {
+  content: "";
+  width: 292rpx;
+  height: 100rpx;
+  background: rgba(110, 113, 113, 0.15);
+  display: block;
+  position: absolute;
+  box-shadow: 0rpx 0rpx 30rpx 0rpx #91dad3;
+}
+
+.input {
+  width: 100rpx;
+  height: 33rpx;
+  border-bottom: 0.5px solid;
+  margin-left: 60rpx;
+  text-align: center;
+  margin-top: 12rpx;
+}
+
+.phcolor {
+  color: white;
+}
+
+.content {
+  display: flex;
+  font-size: 26rpx;
+  justify-content: space-between;
+  width: 82%;
+  margin: 0px auto;
+}
+
+.name {
+  display: flex;
+  width: 221rpx;
+  height: 45rpx;
+  font-size: 33rpx;
+  /* background: red; */
+}
+
+.content_img {
+  width: 47rpx;
+  height: 100%;
+  margin-right: 10rpx;
+  /* background: yellow; */
+}
+
+.unit {
+  height: 27rpx;
+  display: block;
+  text-align: right;
+  font-size: 33rpx;
+}
+
+.des {
+  width: 34%;
+  display: flex;
+  justify-content: space-between;
+}

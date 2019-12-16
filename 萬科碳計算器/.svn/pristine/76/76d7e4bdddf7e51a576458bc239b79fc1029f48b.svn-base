@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+ "navigationBarTitleText": "社区碳计算器",
+"backgroundTextStyle": "light",
+"navigationBarBackgroundColor": "#00BEA9",
+"navigationBarTextStyle": "white",
+"backgroundColor": "#f3f3f3"
+}

@@ -1,0 +1,28 @@
+<view>
+<view  class="content">
+<modal  hidden="{{modalHidden}}" bindconfirm="modalConfirm" no-cancel="{{nical}}">
+    <view style="width: 100%;overflow: hidden;">
+      <image class="image" src="http://wkjsq.carbonstop.net/static/icon/2019-11-15-0?v=1.0.png"mode='aspectFill'></image>
+    </view> 
+  </modal>
+<image src="http://wkjsq.carbonstop.net/static/bj/4.png" class="img"></image>
+
+<view class="back back1" bindtap="metro1"></view>
+<view class="text text1">社区垃圾</view>
+<view class="text text2">分类处理</view>
+<view class="text text3">碳减排计算器</view>
+<view class="title">社区垃圾分类处理对比垃圾不分类处理，能够产生一定的碳减排量，这个小程序可以帮助用户计算其垃圾分类及处理产生的碳减排量，量化用户的绿色贡献。</view>
+<view class="title2">
+<view>数据收集（长按可复制）</view>
+<view >
+<text selectable='true' >统计人数0人，可回收垃圾：纸箱书报0千克，金属0千克，易拉罐0个，玻璃0千克，啤酒瓶0个，塑料0千克，塑料瓶0个，织物0千克，厨余垃圾：黑水虻处理0千克，堆肥0千克，有害垃圾：电子电池类0千克，园林垃圾：枯枝落叶0千克。
+</text>
+</view>
+</view>
+<view class="footer">
+<view class="back help" bindtap="back"></view>
+<button class="come" bindtap="begin">开始计算</button>
+<view class="back back2" bindtap="metro2"></view>
+</view>
+</view>
+</view>

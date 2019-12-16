@@ -1,0 +1,43 @@
+/* pages/meet/meetResult.wxss */
+page{
+  background: #BFEFE9;
+}
+.content{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+height: 100vh;
+align-items: center;
+}
+.text{
+width: 90%;
+display: block;
+margin: 0rpx auto;
+font-size: 29rpx;
+line-height: 60rpx;
+text-indent: 58rpx;
+margin-top: 50rpx;
+/* text-align: left; */
+}
+.btn {
+width: 80%;
+margin: 30rpx auto;
+display: flex;
+align-items: center;
+position: relative;
+top: -4%;
+}
+
+button {
+width: 40%;
+height: 96rpx;
+font-size: 38rpx;
+background: #00BEA9;
+color: white;
+line-height: 96rpx;
+}
+canvas{
+    width: 100% !important;
+    height: 300px !important;
+    top: -8%;
+}

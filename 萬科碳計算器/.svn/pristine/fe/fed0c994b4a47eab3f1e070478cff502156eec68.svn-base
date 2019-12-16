@@ -1,0 +1,58 @@
+/* pages/welcome/welcome.wxss */
+
+.img {
+  width: 100vh;
+  height: 450rpx;
+  background-color: greenyellow;
+}
+
+.tab1 {
+ width: 80%;
+height: 145rpx;
+background-color: white;
+border-radius: 10rpx;
+font-size: 26rpx;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 556;
+}
+
+.put {
+  width: 91rpx;
+  height: 30rpx;
+  background-image: url(https://carbonstop.net/media/20191029104424.png);
+  background-size: 57%;
+  background-position: 100% 100%;
+  position: absolute;
+  right: 14%;
+  background-repeat: no-repeat;
+}
+
+.main {
+  height: 100vh;
+  background: linear-gradient(to bottom left,#78DFC4, #69D6ED );
+  background-position: 68% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100;
+  padding-top: 180rpx;
+}
+.circle{
+width: 319rpx;
+height: 414rpx;
+background-image: url(http://wkjsq.carbonstop.net/static/bj/6.png);
+position: relative;
+bottom: -10%;
+left: 31%;
+background-position: 11% 10%;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.text{
+text-align: center;
+position: relative;
+top: 10%;
+font-size: 24rpx;
+color: #202121;
+margin-bottom: 15rpx;
+}

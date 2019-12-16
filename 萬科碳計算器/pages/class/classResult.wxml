@@ -1,0 +1,18 @@
+<view class="page__bd" hidden="{{load}}"style="position: absolute;top: 31%;left: 27%;width: 54%;height: 210rpx;background: rgba(0,0,0,0.5);color: whitw;z-index: 99999;">
+        <mp-loading type="circle"  tips="{{tips}}" animated="{{animated}}" style="color: white;"></mp-loading>  
+    </view>
+<view style="display: flex;flex-wrap: wrap;align-items: center;justify-content: center;height:100vh;">
+  <view style="display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: 93%;margin: 0rpx auto;">
+    <text>{{text}}</text>
+  </view>
+  <canvas canvas-id="canvas6" class="canvas" bindtouchstart="touchHandler" style="height：520rpx;"></canvas>
+ <view class="btn">
+  <button catchtap="replace">重新计算</button>
+  <button catchtap="result">分享结果</button>
+ </view>
+</view>
+
+<view class="fincanvas" hidden="{{save}}">
+<canvas canvas-id="myCanvas1" style="width:750rpx;height:569px;transfrom:scale(0.5)" class="myCanvas1" ></canvas>
+  <button class="share" catchtap="saveImg" open-type="share"role="button"aria-disabled="false">保存分享</button>
+</view>

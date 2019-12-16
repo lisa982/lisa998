@@ -1,0 +1,39 @@
+<view style="display: flex;">
+  <modal  hidden="{{modalHidden}}" bindconfirm="modalConfirm"  no-cancel="{{nical}}">
+    <view style="width: 100%;overflow: hidden;">
+      <image class="image" src="http://wkjsq.carbonstop.net/static/icon/2019-11-15-0?v=1.0.png"mode='aspectFill'></image>
+    </view> 
+  </modal>
+  <form style="width: 100%;height: 100vh;" bindsubmit="formSubmit">
+    <view class="main">
+      <button wx:for="{{title}}" class="but" wx:key="{{item.id}}" bindtap="show" data-current="{{item.id}}" formType="submit" disabled="{{isDisabled}}">
+        <image src="{{num==item.id?item.url1:item.url}}" class="title_img"></image>
+      </button>
+      <button bindtap="next" formType="submit" class="next">{{text}}</button>
+    </view>
+    <view class="content" style="top: 182rpx;left: -5rpx;position: relative;">
+      <view class="name">
+        <image src="http://wkjsq.carbonstop.net/static/icon/1.people(1).png" class='content_img'></image>统计人数*</view>
+      <input class="input" name="people" type="number" bindblur="input" onkeyup="value=this.value.replace(/\D+/g,'')"></input>
+      <text class="unit">人</text>
+    </view>
+    <swiper current="{{ curIndex}}" duration="300" style="width: 100%;height: 80%;padding-top: 1%;float: left;" bindanimationfinish="swiperTab">
+      <swiper-item wx:for='{{content}}' catchtouchmove='catchTouchMove'>
+        <view class="meetTitle">{{item.title}}
+          <image class="content_img" src='http://wkjsq.carbonstop.net/static/icon/help.png' catchtap="{{item.class2}}"></image>
+          <image class="content_img" src='http://wkjsq.carbonstop.net/static/icon/info.png' style="transform: scale(1.2);" catchtap="{{item.class1}}"></image>
+        </view>
+        <view style="margin-top: 66px;">
+          <view wx:for="{{item.bg}}" class="content">
+            <view class="name">
+              <image src="{{item.url}}" class='content_img'></image>{{item.name}}</view>
+            <input class="input" type="{{item.type}}" bindblur="input" name="{{item.id}}" value="{{item.val}}" onkeyup="value=this.value.replace(/\D+/g,'')"></input>
+            <text class="unit">{{item.unit}}</text>
+          </view>
+
+        </view>
+      </swiper-item>
+    </swiper>
+  </form>
+  <!-- <view></view> -->
+</view>

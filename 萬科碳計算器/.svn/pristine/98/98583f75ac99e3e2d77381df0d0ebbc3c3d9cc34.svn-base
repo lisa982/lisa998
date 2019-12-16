@@ -1,0 +1,175 @@
+page{
+background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+.main {
+  width: 100vh;
+  height: 100vh;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-item {
+  width: 100%;
+  height: auto;
+}
+
+.Enter {
+width: 213rpx;
+height: 89rpx;
+position: fixed;
+z-index: 999999;
+bottom: 8.5%;
+right: 2%;
+align-items: center;
+font-size: 27rpx;
+line-height: 120rpx;
+font-weight: 1200;
+border-top-left-radius: 53rpx;
+border-bottom-left-radius: 53rpx;
+display: flex;
+justify-content: space-around;
+}
+
+/* 轮播图首页*/
+
+.logo_content {
+  width: 370rpx;
+  height: 370rpx;
+  border-radius: 50%;
+  background: linear-gradient(rgba(166, 225, 220, 0.75), rgba(125, 231, 192, 0.8));
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 首页轮播文字 */
+
+.text_content {
+  position: absolute;
+  bottom: 33%;
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  left: 17.5%;
+}
+
+.text_content>text {
+  font-size: 26rpx;
+  text-align: center;
+  width: 100%;
+  line-height: 47rpx;
+}
+
+/* 第二页轮播 */
+
+.logo_second {
+  position: absolute;
+  width: 14%;
+  height: 27%;
+  overflow: hidden;
+  top: 14%;
+  left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_second>image {
+  width: 92%;
+  height: 79rpx;
+}
+
+.logo_second>text {
+  font-size: 57rpx;
+  text-align: center;
+  color: white;
+}
+
+.title_second {
+  width: 48%;
+  height: 16%;
+  overflow: hidden;
+  position: absolute;
+  top: 42%;
+  left: 21%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 43rpx;
+  font-weight: 600;
+  text-indent: 15rpx;
+  text-align: left;
+}
+
+.text_second {
+  position: absolute;
+width: 80%;
+background: rgba(255, 255, 255, 0.6);
+height: 15%;
+font-size: 26rpx;
+display: flex;
+justify-content: center;
+top: 63%;
+left: 10%;
+border-radius: 20rpx;
+color: #262625;
+line-height: 42rpx;
+}
+
+.text_second>text {
+  width: 89%;
+  display: block;
+}
+/* 第三个轮播图 */
+.title_third{
+  position: absolute;
+width: 77%;
+/* background: red; */
+height: 18%;
+font-size: 43rpx;
+color: white;
+font-weight: 600;
+left: 13%;
+top: 43%;
+}
+.img_third{
+  width: 100%;
+height: 60%;
+/* background: blue; */
+position: absolute;
+bottom: 0%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.img_third>image{
+  height: 83%;
+width: 18%;
+}
+.text_third{
+width: 77%;
+position: absolute;
+background-color: rgba(255,255,255,0.6);
+font-size: 26rpx;
+bottom: 17%;
+left: 13%;
+display: flex;
+justify-content: center;
+border-radius: 19rpx;
+height: 15%;
+}
+.text_third>text{
+ width: 84%;
+display: block;
+line-height: 32rpx;
+margin-top: 10rpx;
+padding-bottom: 10rpx;
+}

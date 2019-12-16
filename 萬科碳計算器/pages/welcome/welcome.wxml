@@ -1,0 +1,26 @@
+<view class="main">
+  <modal hidden="{{modalHidden}}" bindconfirm="modalConfirm" no-cancel="{{nical}}">
+    <view style="width: 100%;overflow: hidden;">
+      <image class="image" src="http://wkjsq.carbonstop.net/static/icon/2019-11-15-0?v=1.0.png" mode='aspectFill'></image>
+    </view>
+  </modal>
+  <view class="title">
+    <view class="titleImg">
+      <view class="title_img title_img1"></view>
+      <view class="title_img title_img2"></view>
+      <view class="title_img title_img3" catchtap="history"></view>
+    </view>
+    <view class="title_text">垃圾分类碳计算器</view>
+  </view>
+  <!-- <image src="../../res/img/bg.jpg" class="img"></image> -->
+  <view class="content" wx:for="{{title}}" style="padding-top: 120rpx">
+    <view class="tab1 animated {{item.animate}} " style="margin-top: 52px;font-size: 21px;text-align: center;">
+      {{item.name}}
+    </view>
+    <button class="put" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo" catchtap="{{item.id}}">
+    </button>
+  </view>
+  <view class="footer">
+    <view class="help" catchtap="help"></view>
+  </view>
+</view>

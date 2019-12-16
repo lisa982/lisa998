@@ -1,0 +1,38 @@
+
+<!--  -->
+<view class="content">
+  <view class="text">{{text}}</view>
+  <canvas canvas-id="pieCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+  <view class="btn">
+    <button catchtap="replace">重新计算</button>
+    <button catchtap="result">分享结果</button>
+  </view>
+</view>
+<!--pages/meet/meetResult.wxml-->
+<view class="page__bd" hidden="{{load}}"style="position: absolute;top: 31%;left: 27%;width: 54%;height: 210rpx;background: rgba(0,0,0,0.5);color: white;z-index:99999;">
+        <mp-loading type="circle"  tips="{{tips}}" animated="{{animated}}" style="color: white;"></mp-loading>  
+    </view>
+<view class="fincanvas" hidden="{{save}}">
+  <canvas canvas-id="myCanvas1" style="width:750rpx;height:569px" class="myCanvas1"></canvas>
+  <button class="share" catchtap="saveImg" open-type="share"role="button"aria-disabled="false">保存分享</button>
+</view>
+<!--  -->
+<!-- <canvas canvas-id="myCanvas" class='canvas1' /> -->
+<!-- 预览分享图 这里就是上图展示的效果   -->
+<!-- 刚开始是隐藏的 生成分享图之后显示, 用一个布尔变量来控制 这里的样式大家看图就写出来了 -->
+<!-- <view hidden='{{save}}' class='preview' bindtap='cancel'>
+  <image src='http://wkjsq.carbonstop.net/static/bj/historyback.png' mode='widthFix'></image>
+  <view class="friend">
+    <image src="http://wkjsq.carbonstop.net/static/img/vankelogoda.png" class="img"></image>
+    <image src="http://wkjsq.carbonstop.net/static/img/carbonstoplogoda.png" class="img"></image>
+  </view>
+  <view class="logo_f">
+    <image src="http://wkjsq.carbonstop.net/static/img/QRcode.jpg" class="img_logo"></image>
+  </view>
+  <view style="position:relative;height:102rpx">
+    <view class="result">
+      「{{nickname1}}」 经过碳计算器计算，结果展示如下：</view>
+    <view class="result_text">{{text}}</view>
+    <button open-type="share" role="button" aria-disabled="false">保存分享</button>
+  </view>
+</view> -->

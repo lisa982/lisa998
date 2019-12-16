@@ -1,0 +1,49 @@
+/* pages/class/classResult.wxss */
+page{
+background: #BFEFE9;
+}
+.canvas {
+ width: 100% !important;
+height: 300px !important;
+position: relative;
+top: -4.3%;
+}
+
+text {
+width: 90%;
+display: block;
+margin: 0rpx auto;
+font-size: 29rpx;
+line-height: 60rpx;
+text-indent: 58rpx;
+margin-top: 50rpx;
+text-align: left;
+}
+
+/* 按钮 */
+
+.btn {
+  width: 80%;
+  height: 100rpx;
+  margin: 0rpx auto;
+  display: flex;
+  align-items: center;
+}
+
+button {
+width: 40%;
+height: 96rpx;
+font-size: 38rpx;
+background: #00BEA9;
+color: white;
+line-height: 96rpx;
+}
+.result{
+  width: 80%;
+text-align: center;
+position: absolute;
+top: 14%;
+left: 10%;
+color: white;
+font-weight: 600;
+}

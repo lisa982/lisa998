@@ -1,0 +1,15 @@
+<view class="main">
+  <!-- <image src="../../res/img/bg.jpg" class="img"></image> -->
+ <view class="content"wx:for="{{title}}" style="padding-top: 120rpx" >
+  <button class="tab1 animated {{item.animate}}" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo" style="background: rgba(255,255,255,0.7);border: none;margin-top: -2px;border-radius: 76px;color: #11100D;font-size: 21px;text-align: center;" bindtap="{{item.id}}">
+    {{item.name}}
+    <!-- <view class="put">
+    </view> -->
+  </button>
+ </view>
+ <view class="circle">
+ <image src="http://wkjsq.carbonstop.net/static/bj/5.png" style="width: 40%;height: 37%;position: absolute;left: 23.5%;top: 18%;"></image>
+ </view>
+  <view class="text">万科公益基金会</view>
+ <view class="text">技术支持：碳阻迹（北京）科技有限公司</view>
+</view>

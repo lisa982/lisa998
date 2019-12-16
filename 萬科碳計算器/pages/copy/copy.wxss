@@ -1,0 +1,55 @@
+page{
+  background:#144B9E;
+}
+.text {
+ width: 92%;
+height: 135px;
+display: block;
+overflow-y: scroll;
+position: relative;
+word-wrap: break-word;
+background: white;
+margin: 20rpx auto;
+color: wihte;
+font-size: 26rpx;
+line-height:50rpx;
+}
+.send{
+    width: 36%;
+height: 94rpx;
+line-height: 94rpx;
+background: #F6CB00;
+color: white;
+
+}
+.copy{
+  display: flex;
+flex-wrap: wrap;
+height: 50vh;
+align-items: center;
+}
+.meet{
+  width:100%;
+}
+.title{
+  padding:20rpx; 
+  color:white;
+}
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #eee;  
+    text-align: center;  
+    line-height: 80rpx;
+    background: #fff;
+    font-size: 14px;
+}  
+.on{ 
+  color: #dd2727;  
+  border-bottom: 5rpx solid #dd2727;
+}  
+.swiper-tab-list{  
+  font-size: 29rpx;  
+    display: inline-block;  
+    width: 49.5%;  
+    color: #333; 
+}

@@ -1,0 +1,41 @@
+/* pages/meetcopy/meetcopy.wxss */
+
+page {
+  background: #c03d2f;
+}
+.copy{
+  display: flex;
+flex-wrap: wrap;
+height: 50vh;
+align-items: center;
+}
+.meet{
+  width:100%;
+}
+.text {
+ width: 92%;
+height: 135px;
+display: block;
+overflow-y: scroll;
+position: relative;
+word-wrap: break-word;
+background: white;
+margin: 20rpx auto;
+color: wihte;
+font-size: 26rpx;
+line-height:50rpx;
+}
+
+.title {
+  padding: 20rpx;
+  color: white;
+}
+.send{
+  width: 36%;
+height: 94rpx;
+line-height: 94rpx;
+background: #F6CB00;
+color: white;
+
+}
+

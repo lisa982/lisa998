@@ -1,0 +1,39 @@
+<view style="display: flex;">
+  <modal hidden="{{modalHidden}}" bindconfirm="modalConfirm" no-cancel="{{nical}}">
+    <view style="width: 100%;overflow: hidden;">
+      <image class="image" src="http://wkjsq.carbonstop.net/static/icon/2019-11-15-0?v=1.0.png" mode='aspectFill'></image>
+    </view>
+  </modal>
+  <form style="width: 100%;height: 100vh;" bindsubmit="formSubmit">
+    <view class="main">
+      <button wx:for="{{title}}" wx:key="{{item.id}}" class="{{curIndex==index?'active':''}}  change" wx:key="{{item.id}}" catchtap="show" data-current="{{item.id}}" formType="submit">
+        <image src="{{num==item.id?item.url1:item.url}}" class="title_img"></image>
+      </button>
+      <button bindtap="next" class="next" formType="submit" style="bottom:{{item.bottom}}">{{text}}</button>
+    </view>
+    <swiper current="{{curIndex}}" duration="300" style="width: 100%;height: 73%;padding-top: 1%;float: left;overflow: scroll;" bindanimationfinish="swiperTab">
+      <swiper-item wx:for='{{content}}' wx:key="{{index}}" catchtouchmove='catchTouchMove' style='overflow: scroll;'>
+        <view class="meetTitle">{{item.title}}
+          <view>
+            <image class="content_img" src="http://wkjsq.carbonstop.net/static/icon/info.png" style="transform: scale(1.2);" catchtap="{{item.class1}}"></image>
+            <image class="content_img" src="http://wkjsq.carbonstop.net/static/icon/help.png" catchtap="{{item.class2}}"></image>
+          </view>
+        </view>
+        <scroll-view scroll-y="true" style="height: 910rpx;margin-top: 18%;overflow-y: ccroll;">
+          <view style="height: 506px;">
+            <view wx:for="{{item.bg}}" class="content">
+              <view class="name">
+                <image src="{{item.url}}" class="content_img"></image> {{item.name}}</view>
+              <view class="meet_content">
+                <input class="input" placeholder-class="phcolor" type="{{item.ipt}}" bindblur="{{item.click}}" name="{{item.id}}" placeholder="{{item.holder}}"></input>
+                <input class="input" placeholder-class="phcolor" type="string" bindblur="{{item.click}}" name="{{item.come}}" placeholder="{{item.holder2}}" hidden="{{item.hidden}}"></input>
+                <text class="unit">{{item.unit}}</text>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+  </form>
+  <!-- <view></view> -->
+</view>

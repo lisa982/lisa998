@@ -1,0 +1,132 @@
+/* pages/meet/meet.wxss */
+page{
+  background:linear-gradient(-225deg, #b7f8db 0%, #50a7c2 100%);
+  height: 100vh;
+overflow: hidden;
+
+}
+.main {
+width: 24%;
+height: 100vh;
+float: left;
+display: flex;
+align-items: center;
+background: #00BEAC;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+.active {
+  /* background: rgba(255, 255, 255, 0.9); */
+  border-radius: 20rpx;
+}
+.title{
+height: 60%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+flex-flow: cloumn;
+width: 100rpx;
+}
+button::after{
+border:none;
+}
+.content {
+  display: flex;
+  align-items: center;
+height: 103rpx;
+
+}
+.change{
+flex-wrap: wrap;
+flex-flow: column;
+height: 82rpx;
+align-items: center;
+justify-content: center;
+width: 82rpx;
+overflow: visible;
+border-radius: 100%;
+flex-grow: cloumn;
+}
+.change>image{
+width: 40rpx;
+height: 40rpx;
+}
+.content>text {
+  font-size: 33rpx;
+  text-align: left;
+}
+
+.mainRight {
+  width: 76%;
+  height: 100vh;
+  background: blue;
+}
+
+.Right {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* 点击下一步按钮 */
+
+.next {
+width: 173rpx;
+height: 75rpx;
+font-size: 33rpx;
+background: #00BEA9;
+border: none;
+color: white;
+text-align: center;
+line-height: 75rpx;
+position: absolute;
+bottom: -35%;
+right: 10%;
+}
+.active{
+ background: rgba(255,255,255,1);
+}
+.active::before{
+content: "";
+width: 292rpx;
+height: 100rpx;
+background: rgba(110,113,113,0.15);
+display: block;
+position: absolute;
+box-shadow: 0rpx 0rpx 30rpx 0rpx #91DAD3;
+}
+.input {
+  width: 100rpx;
+  height: 33rpx;
+  border: 1rpx solid gray;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  text-align: center;
+  margin-top: 12rpx;
+}
+
+.content {
+  display: flex;
+  font-size: 24rpx;
+}
+
+.name {
+  display: block;
+width: 167rpx;
+  height: 30rpx;
+  margin-left: 50rpx;
+}
+
+.unit {
+  height: 27rpx;
+  display: block;
+  text-align: right;
+}
+
+.des {
+  width: 34%;
+  display: flex;
+  justify-content: space-between;
+}

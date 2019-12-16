@@ -1,0 +1,8 @@
+<view>
+<view class="fincanvas" hidden="">
+<view class="back" catchtap="result"></view>
+  <canvas canvas-id="myCanvas1" style="width:750rpx;height:569px" class="myCanvas1"></canvas>
+  <button class="share" catchtap="saveImg" open-type="share"role="button"aria-disabled="false">保存分享</button>
+</view>
+</view>
+
