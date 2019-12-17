@@ -1,0 +1,9 @@
+<!--pages/meet/meetResult.wxml-->
+<view class="content">
+<view class="text">{{text}}</view>
+<canvas canvas-id="pieCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+<view class="btn">
+  <button catchtap="replace">重新计算</button>
+  <button open-type="share"role="button"aria-disabled="false">分享结果</button>
+ </view>
+</view>

@@ -1,0 +1,143 @@
+/* pages/class/class.wxss */
+
+page {
+  height: 100vh;
+  background-image: linear-gradient(-225deg, #b7f8db 0%, #50a7c2 100%);
+  overflow: hidden;
+}
+.but {
+width: 90rpx;
+height: 90rpx;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: visible;
+}
+.title_img {
+  width: 60rpx;
+  height: 40rpx;
+}
+.title {
+ height: 61%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100rpx;
+}
+
+.main {
+ width: 22%;
+float: left;
+display: flex;
+align-items: center;
+height: 100vh;
+background: #00beac;
+justify-content: center;
+overflow: hidden;
+}
+.active{
+ background: rgba(255,255,255,1);
+}
+.active::before{
+content: "";
+width: 292rpx;
+height: 100rpx;
+background: rgba(110,113,113,0.15);
+display: block;
+position: absolute;
+box-shadow: 0rpx 0rpx 30rpx 0rpx #91DAD3;
+}
+.content {
+  display: flex;
+  align-items: center;
+  height: 89rpx;
+}
+
+.mainRight {
+  width: 76%;
+  height: 100vh;
+  /* background: blue; */
+}
+
+.Right {
+  width: 100%;
+  height: 100%;
+}
+
+/* 点击下一步按钮 */
+
+.next {
+width: 173rpx;
+height: 75rpx;
+font-size: 33rpx;
+background: #00BEA9;
+border: none;
+color: white;
+text-align: center;
+line-height: 75rpx;
+position: absolute;
+bottom: 16%;
+right: 10%;
+}
+
+.input {
+  width: 100rpx;
+  height: 22rpx;
+  text-align: center;
+  border-bottom: 1rpx solid gray;
+}
+
+.content {
+  display: flex;
+  font-size: 26rpx;
+  justify-content: space-around;
+}
+
+.name {
+  display: block;
+  width: 182rpx;
+  height: 30rpx;
+  font-size: 33rpx;
+}
+
+.unit {
+  width: 73rpx;
+  height: 27rpx;
+  display: block;
+  text-align: right;
+  font-size: 33rpx;
+}
+
+.active {
+}
+
+.but::after {
+  border: none;
+}
+
+/* 人数 */
+
+.numn {
+  position: absolute;
+  top: 15.5%;
+  right: 0%;
+}
+
+button>text {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+/*回退按钮 */
+
+.back {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}

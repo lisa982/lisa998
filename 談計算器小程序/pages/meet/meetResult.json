@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "计算结果",
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#00BEA9",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#f3f3f3"
+}

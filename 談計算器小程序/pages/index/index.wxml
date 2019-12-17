@@ -1,0 +1,55 @@
+<view class="main">
+  <swiper circular="true" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"indicator-color="{{indicatorcolor}}" style="width: {{imageWidth}}px;height:100vh">
+    <block>
+      <swiper-item style="height:100vh;">
+       <view class="logo_content"><text style="display: block;width: 81%;font-size:43rpx;text-align: center;line-height: 60rpx;font-weight: 550;color: white;">社区垃圾分类碳减排计算器</text></view>
+        <image src="http://wkjsq.carbonstop.net/static/bj/1.png" style="width: {{imageWidth}}px;height:{{imageHeight}}px" class="slide-image" model="aspectFit" />
+        <view class="text_content">
+         <text>万科公益基金会</text>
+         <text>碳阻迹（北京）科技有限公司</text>
+        </view>
+      </swiper-item>
+      <swiper-item style="height:100vh;">
+        <view class="logo_second">
+          <image src="http://wkjsq.carbonstop.net/static/bj/4.png"></image>
+          <text>功能一</text>
+        </view>
+        <view class="title_second">
+          <text>社区垃圾</text>
+          <text>分类处理</text>
+          <text>碳减排计算器</text>
+        </view>
+        <view class="text_second">
+          <text>
+          社区垃圾分类处理对比垃圾不分类处理，能够产生一定的碳减排量，这个小程序可以帮助用户计算其垃圾分类及处理产生的碳减排量，量化用户的绿色贡献。
+          </text>
+        </view>
+        <image src="http://wkjsq.carbonstop.net/static/bj/2.png" style="width: {{imageWidth}}px;height:{{imageHeight}}px" class="slide-image" model="aspectFit" />
+      </swiper-item>
+      <swiper-item style="height:100vh;">
+        <view class="logo_second">
+          <image src="http://wkjsq.carbonstop.net/static/bj/4.png"></image>
+          <text>功能二</text>
+        </view>
+        <view class="title_third">
+          <text>会议碳计算器</text>
+          <view class="img_third">
+            <image src="http://wkjsq.carbonstop.net/static/bj/3.png"></image>
+            <image src="http://wkjsq.carbonstop.net/static/bj/3.png"></image>
+            <image src="http://wkjsq.carbonstop.net/static/bj/3.png"></image>
+          </view>
+        </view>
+        <view class="text_third">
+          <text>
+       会议的举办要求参会者到达指定地点，参会者到场的交通，会议所提供的食物、会议的能源消耗都会产生相应的碳排放。这个小程序可以计算个人参会所产生的的碳排放量，让用户心中有数。
+          </text>
+        </view>
+        <image src="http://wkjsq.carbonstop.net/static/bj/2.png" style="width: {{imageWidth}}px;height:{{imageHeight}}px" class="slide-image" model="aspectFit" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <button class="Enter animated jello" bindtap="enter"> 
+  <image src="http://wkjsq.carbonstop.net/static/img/2.png"style="width: 30%;height: 53%;"></image>
+  进入
+  </button>
+</view>

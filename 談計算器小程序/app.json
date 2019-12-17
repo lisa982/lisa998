@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/welcome/welcome",
+    "pages/class/class",
+    "pages/meet/meet",
+    "pages/meet/meetResult",
+    "pages/class/classResult",
+    "pages/logs/logs"
+  ],
+  "window": {
+  },
+  "sitemapLocation": "sitemap.json"
+}
