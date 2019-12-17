@@ -1,0 +1,150 @@
+{
+  "nav": [
+    {
+      "name": "Home"
+    },
+    {
+      "name": "Five sustainable steps"
+    },
+    {
+      "name": "About Us"
+    },
+    {
+      "name": "User center"
+    },
+    {
+      "name": "Land"
+    }
+  ],
+  "single": {
+    "name": "Switching individually"
+  },
+  "elementnav": [
+    {
+      "name": "Basic",
+      "index": "1",
+      "child": [
+        {
+          "name": "Layout",
+          "index": "1-1",
+          "url": "/ElementUI/"
+        },
+        {
+          "name": "LayoutContainer",
+          "index": "1-2",
+          "url": "/ElementUI/Container"
+        },
+        {
+          "name": "ICON",
+          "index": "1-3",
+          "url": "/ElementUI/Icon"
+        },
+        {
+          "name": "Button",
+          "index": "1-4",
+          "url": "/ElementUI/Button"
+        }
+      ]
+    }
+  ],
+  "Layout": [
+    {
+      "name": "布局",
+      "solt": "title",
+      "class": "el-icon-message",
+      "index": "1",
+      "child": [
+        {
+          "index": "1-1",
+          "name": "基础布局",
+          "solt": "title",
+          "child": [
+            {
+              "index": "1-1-1",
+              "name": "要点"
+            },
+            {
+              "index": "1-1-2",
+              "name": "实例"
+            }
+          ]
+        },
+        {
+          "index": "1-2",
+          "name": "分栏间隔",
+          "solt": "title",
+          "child": [
+            {
+              "index": "1-2-1",
+              "name": "要点"
+            },
+            {
+              "index": "1-2-2",
+              "name": "实例"
+            }
+          ]
+        },
+        {
+          "index": "1-3",
+          "name": "混合布局",
+          "solt": "title",
+          "child": [
+            {
+              "index": "1-3-1",
+              "name": "要点"
+            },
+            {
+              "index": "1-3-2",
+              "name": "实例"
+            }
+          ]
+        },
+        {
+          "index": "1-4",
+          "name": "分栏偏移",
+          "solt": "title",
+          "child": [
+            {
+              "index": "1-4-1",
+              "name": "要点"
+            },
+            {
+              "index": "1-4-2",
+              "name": "实例"
+            }
+          ]
+        },
+        {
+          "index": "1-5",
+          "name": "对齐方式",
+          "solt": "title",
+          "child": [
+            {
+              "index": "1-5-1",
+              "name": "要点"
+            },
+            {
+              "index": "1-6-2",
+              "name": "实例"
+            }
+          ]
+        },
+        {
+          "index": "1-1",
+          "name": "基础布局",
+          "solt": "title",
+          "child": [
+            {
+              "index": "1-1-1",
+              "name": "要点"
+            },
+            {
+              "index": "1-1-2",
+              "name": "实例"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

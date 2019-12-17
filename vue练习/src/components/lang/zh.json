@@ -1,0 +1,74 @@
+{
+  "nav": [
+    {
+      "name": "首页"
+    },
+    {
+      "name": "可持续五步走"
+    },
+    {
+      "name": "关于我们"
+    },
+    {
+      "name": "用户中心"
+    },
+    {
+      "name": "登陆"
+    }
+  ],
+  "single": {
+    "name": "单个进行切换"
+  },
+  "elementnav": [
+    {
+      "name": "布局",
+      "index": "1",
+      "child": [
+        {
+          "name": "布局",
+          "index": "1-1",
+          "url": "/ElementUI/"
+        },
+        {
+          "name": "布局容器",
+          "index": "1-2",
+          "url": "/ElementUI/Container"
+        },
+        {
+          "name": "图标",
+          "index": "1-3",
+          "url": "/ElementUI/Icon"
+        },
+        {
+          "name": "按钮",
+          "index": "1-4",
+          "url": "/ElementUI/Button"
+        }
+      ]
+    }
+  ],
+  "Layout": [
+    {
+      "name": "",
+      "index": "",
+      "url": "",
+      "child": [
+        {
+          "name": "",
+          "index": "",
+          "url": ""
+        },
+        {
+          "name": "",
+          "index": "",
+          "url": ""
+        },
+        {
+          "name": "",
+          "index": "",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
